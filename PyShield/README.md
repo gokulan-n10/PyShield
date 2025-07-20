@@ -1,6 +1,6 @@
 # PyShield
 
-PyShield is a powerfull stateful packet filtering firewall built using Python, Scapy, and Pyyaml. I made this project to use personally for my home lab that I am currently working on. This project uses the concepts of traffic inspection, TCP connection tracking, and rule-based filtering.
+PyShield is a powerfull stateful packet filtering firewall built using Python, Scapy, and PyYAML. I made this project to use personally for my home lab that I am currently working on. This project uses the concepts of traffic inspection, TCP connection tracking, and rule-based filtering.
 
 Firewall features:
 1. Stateful TCP filtering: Tracks SYN, ACK, FIN, and RST flags to identify valid connections
