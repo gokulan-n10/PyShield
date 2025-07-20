@@ -1,0 +1,24 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Packet captures
+*.pcap
+*.cap
+
+# Archives
+*.zip
+
+# Virtual environments
+venv/
+.env/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Specific file
+firewall/firewall.log
