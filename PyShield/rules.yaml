@@ -1,0 +1,12 @@
+- action: drop
+  protocol: tcp
+  src_ip: "REPLACE_ME"
+  dst_port: 22
+
+- action: allow
+  protocol: tcp
+  dst_port: 80
+
+- action: drop
+  protocol: udp
+  dst_port: 53
